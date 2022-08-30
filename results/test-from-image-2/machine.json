@@ -1,0 +1,9 @@
+{
+    "arch": "x86_64",
+    "cpu": "DO-Premium-Intel",
+    "machine": "test-from-image-2",
+    "num_cpu": "1",
+    "os": "Linux 5.15.0-46-generic",
+    "ram": "2023368",
+    "version": 1
+}

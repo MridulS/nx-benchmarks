@@ -1,0 +1,428 @@
+{
+    "benchmark_algorithms.AlgorithmBenchmarks.time_average_clustering": {
+        "code": "class AlgorithmBenchmarks:\n    def time_average_clustering(self, graph_type):\n        _ = nx.average_clustering(graph_type)",
+        "min_run_count": 2,
+        "name": "benchmark_algorithms.AlgorithmBenchmarks.time_average_clustering",
+        "number": 0,
+        "param_names": [
+            "graph_type"
+        ],
+        "params": [
+            [
+                "<networkx.classes.graph.Graph object> (0)",
+                "<networkx.classes.graph.Graph object> (1)",
+                "<networkx.classes.graph.Graph object> (2)",
+                "<networkx.classes.graph.Graph object> (3)"
+            ]
+        ],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 120,
+        "type": "time",
+        "unit": "seconds",
+        "version": "23f403058aad8c22356d2e5146e233ba6dca5d722212f7c5edc0e4aa497c15ca",
+        "warmup_time": -1
+    },
+    "benchmark_algorithms.AlgorithmBenchmarks.time_betweenness_centrality": {
+        "code": "class AlgorithmBenchmarks:\n    def time_betweenness_centrality(self, graph_type):\n        # timing this should also give us information about underlying shortest path\n        # methods\n        _ = nx.betweenness_centrality(graph_type)",
+        "min_run_count": 2,
+        "name": "benchmark_algorithms.AlgorithmBenchmarks.time_betweenness_centrality",
+        "number": 0,
+        "param_names": [
+            "graph_type"
+        ],
+        "params": [
+            [
+                "<networkx.classes.graph.Graph object> (0)",
+                "<networkx.classes.graph.Graph object> (1)",
+                "<networkx.classes.graph.Graph object> (2)",
+                "<networkx.classes.graph.Graph object> (3)"
+            ]
+        ],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 120,
+        "type": "time",
+        "unit": "seconds",
+        "version": "44cb885e78376b786d7c9d8ab17e7a992a67300b0d5bfab164c46877ef892e34",
+        "warmup_time": -1
+    },
+    "benchmark_algorithms.AlgorithmBenchmarks.time_connected_components": {
+        "code": "class AlgorithmBenchmarks:\n    def time_connected_components(self, graph_type):\n        _ = list(nx.connected_components(graph_type))",
+        "min_run_count": 2,
+        "name": "benchmark_algorithms.AlgorithmBenchmarks.time_connected_components",
+        "number": 0,
+        "param_names": [
+            "graph_type"
+        ],
+        "params": [
+            [
+                "<networkx.classes.graph.Graph object> (0)",
+                "<networkx.classes.graph.Graph object> (1)",
+                "<networkx.classes.graph.Graph object> (2)",
+                "<networkx.classes.graph.Graph object> (3)"
+            ]
+        ],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 120,
+        "type": "time",
+        "unit": "seconds",
+        "version": "9cc853335ff28d1e354dbff444b597b96c4c7a85ed117236445a53cbf1150bea",
+        "warmup_time": -1
+    },
+    "benchmark_algorithms.AlgorithmBenchmarks.time_greedy_modularity_communities": {
+        "code": "class AlgorithmBenchmarks:\n    def time_greedy_modularity_communities(self, graph_type):\n        _ = community.greedy_modularity_communities(graph_type)",
+        "min_run_count": 2,
+        "name": "benchmark_algorithms.AlgorithmBenchmarks.time_greedy_modularity_communities",
+        "number": 0,
+        "param_names": [
+            "graph_type"
+        ],
+        "params": [
+            [
+                "<networkx.classes.graph.Graph object> (0)",
+                "<networkx.classes.graph.Graph object> (1)",
+                "<networkx.classes.graph.Graph object> (2)",
+                "<networkx.classes.graph.Graph object> (3)"
+            ]
+        ],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 120,
+        "type": "time",
+        "unit": "seconds",
+        "version": "5f45ed84e48888645ca318086460d76aa5caa5be5a412aa5f068a33032b611d1",
+        "warmup_time": -1
+    },
+    "benchmark_algorithms.AlgorithmBenchmarks.time_k_core": {
+        "code": "class AlgorithmBenchmarks:\n    def time_k_core(self, graph_type):\n        _ = nx.k_core(graph_type)",
+        "min_run_count": 2,
+        "name": "benchmark_algorithms.AlgorithmBenchmarks.time_k_core",
+        "number": 0,
+        "param_names": [
+            "graph_type"
+        ],
+        "params": [
+            [
+                "<networkx.classes.graph.Graph object> (0)",
+                "<networkx.classes.graph.Graph object> (1)",
+                "<networkx.classes.graph.Graph object> (2)",
+                "<networkx.classes.graph.Graph object> (3)"
+            ]
+        ],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 120,
+        "type": "time",
+        "unit": "seconds",
+        "version": "bbf7a92560cc824b6e27a8878be99128eda4e01ea007866af60474c91501cf53",
+        "warmup_time": -1
+    },
+    "benchmark_algorithms.AlgorithmBenchmarks.time_louvain_communities": {
+        "code": "class AlgorithmBenchmarks:\n    def time_louvain_communities(self, graph_type):\n        _ = community.louvain_communities(graph_type)",
+        "min_run_count": 2,
+        "name": "benchmark_algorithms.AlgorithmBenchmarks.time_louvain_communities",
+        "number": 0,
+        "param_names": [
+            "graph_type"
+        ],
+        "params": [
+            [
+                "<networkx.classes.graph.Graph object> (0)",
+                "<networkx.classes.graph.Graph object> (1)",
+                "<networkx.classes.graph.Graph object> (2)",
+                "<networkx.classes.graph.Graph object> (3)"
+            ]
+        ],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 120,
+        "type": "time",
+        "unit": "seconds",
+        "version": "ecb9b84d9f5f9cb212b71444e6fefadb62254838093502affcde0f8eb560a09b",
+        "warmup_time": -1
+    },
+    "benchmark_algorithms.AlgorithmBenchmarks.time_pagerank": {
+        "code": "class AlgorithmBenchmarks:\n    def time_pagerank(self, graph_type):\n        _ = nx.pagerank(graph_type)",
+        "min_run_count": 2,
+        "name": "benchmark_algorithms.AlgorithmBenchmarks.time_pagerank",
+        "number": 0,
+        "param_names": [
+            "graph_type"
+        ],
+        "params": [
+            [
+                "<networkx.classes.graph.Graph object> (0)",
+                "<networkx.classes.graph.Graph object> (1)",
+                "<networkx.classes.graph.Graph object> (2)",
+                "<networkx.classes.graph.Graph object> (3)"
+            ]
+        ],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 120,
+        "type": "time",
+        "unit": "seconds",
+        "version": "f5ad8e80e00225e2de3e36e088f1e88aa665768ce8c66789de405900f952a372",
+        "warmup_time": -1
+    },
+    "benchmarks_classes.GraphBenchmark.time_add_edges_from": {
+        "code": "class GraphBenchmark:\n    def time_add_edges_from(self, graph_type):\n        self.G.add_edges_from(self.edges)\n\n    def setup(self, graph_type):\n        self.nodes = list(range(1, 1000))\n        self.edges = list()\n        self.subgraph_nodes = list(range(1, 100))\n        self.subgraph_nodes_large = list(range(1, 900))\n        self.G = graph_type()",
+        "min_run_count": 2,
+        "name": "benchmarks_classes.GraphBenchmark.time_add_edges_from",
+        "number": 0,
+        "param_names": [
+            "graph_type"
+        ],
+        "params": [
+            [
+                "<class 'networkx.classes.graph.Graph'>",
+                "<class 'networkx.classes.digraph.DiGraph'>",
+                "<class 'networkx.classes.multigraph.MultiGraph'>",
+                "<class 'networkx.classes.multidigraph.MultiDiGraph'>"
+            ]
+        ],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "1778055b8d6057d67a9ee689b8038afd256a274d8ae5275a89f4c2e9fb055acf",
+        "warmup_time": -1
+    },
+    "benchmarks_classes.GraphBenchmark.time_add_nodes_from": {
+        "code": "class GraphBenchmark:\n    def time_add_nodes_from(self, graph_type):\n        self.G.add_nodes_from(self.nodes)\n\n    def setup(self, graph_type):\n        self.nodes = list(range(1, 1000))\n        self.edges = list()\n        self.subgraph_nodes = list(range(1, 100))\n        self.subgraph_nodes_large = list(range(1, 900))\n        self.G = graph_type()",
+        "min_run_count": 2,
+        "name": "benchmarks_classes.GraphBenchmark.time_add_nodes_from",
+        "number": 0,
+        "param_names": [
+            "graph_type"
+        ],
+        "params": [
+            [
+                "<class 'networkx.classes.graph.Graph'>",
+                "<class 'networkx.classes.digraph.DiGraph'>",
+                "<class 'networkx.classes.multigraph.MultiGraph'>",
+                "<class 'networkx.classes.multidigraph.MultiDiGraph'>"
+            ]
+        ],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "83f88e881c24002c40574c330c6adf823d66ce1b0345f2188452f8938544f2d6",
+        "warmup_time": -1
+    },
+    "benchmarks_classes.GraphBenchmark.time_copy": {
+        "code": "class GraphBenchmark:\n    def time_copy(self, graph_type):\n        _ = self.G.copy()\n\n    def setup(self, graph_type):\n        self.nodes = list(range(1, 1000))\n        self.edges = list()\n        self.subgraph_nodes = list(range(1, 100))\n        self.subgraph_nodes_large = list(range(1, 900))\n        self.G = graph_type()",
+        "min_run_count": 2,
+        "name": "benchmarks_classes.GraphBenchmark.time_copy",
+        "number": 0,
+        "param_names": [
+            "graph_type"
+        ],
+        "params": [
+            [
+                "<class 'networkx.classes.graph.Graph'>",
+                "<class 'networkx.classes.digraph.DiGraph'>",
+                "<class 'networkx.classes.multigraph.MultiGraph'>",
+                "<class 'networkx.classes.multidigraph.MultiDiGraph'>"
+            ]
+        ],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "89000b7abf4dd34bea728799672e4de4549be637c5aee78c2a21c03128323f1e",
+        "warmup_time": -1
+    },
+    "benchmarks_classes.GraphBenchmark.time_graph_create": {
+        "code": "class GraphBenchmark:\n    def time_graph_create(self, graph_type):\n        _ = nx.Graph()\n\n    def setup(self, graph_type):\n        self.nodes = list(range(1, 1000))\n        self.edges = list()\n        self.subgraph_nodes = list(range(1, 100))\n        self.subgraph_nodes_large = list(range(1, 900))\n        self.G = graph_type()",
+        "min_run_count": 2,
+        "name": "benchmarks_classes.GraphBenchmark.time_graph_create",
+        "number": 0,
+        "param_names": [
+            "graph_type"
+        ],
+        "params": [
+            [
+                "<class 'networkx.classes.graph.Graph'>",
+                "<class 'networkx.classes.digraph.DiGraph'>",
+                "<class 'networkx.classes.multigraph.MultiGraph'>",
+                "<class 'networkx.classes.multidigraph.MultiDiGraph'>"
+            ]
+        ],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "80b0d725454c5db28051337b7bea757f8a1f214a483f2dd1dca3880d84b35f70",
+        "warmup_time": -1
+    },
+    "benchmarks_classes.GraphBenchmark.time_remove_edges_from": {
+        "code": "class GraphBenchmark:\n    def time_remove_edges_from(self, graph_type):\n        self.G.remove_edges_from(self.edges)\n\n    def setup(self, graph_type):\n        self.nodes = list(range(1, 1000))\n        self.edges = list()\n        self.subgraph_nodes = list(range(1, 100))\n        self.subgraph_nodes_large = list(range(1, 900))\n        self.G = graph_type()",
+        "min_run_count": 2,
+        "name": "benchmarks_classes.GraphBenchmark.time_remove_edges_from",
+        "number": 0,
+        "param_names": [
+            "graph_type"
+        ],
+        "params": [
+            [
+                "<class 'networkx.classes.graph.Graph'>",
+                "<class 'networkx.classes.digraph.DiGraph'>",
+                "<class 'networkx.classes.multigraph.MultiGraph'>",
+                "<class 'networkx.classes.multidigraph.MultiDiGraph'>"
+            ]
+        ],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "cbbf305a077f7a8e570364650900731480f3fad3176ce15ed4251666bf005c13",
+        "warmup_time": -1
+    },
+    "benchmarks_classes.GraphBenchmark.time_remove_nodes_from": {
+        "code": "class GraphBenchmark:\n    def time_remove_nodes_from(self, graph_type):\n        self.G.remove_nodes_from(self.nodes)\n\n    def setup(self, graph_type):\n        self.nodes = list(range(1, 1000))\n        self.edges = list()\n        self.subgraph_nodes = list(range(1, 100))\n        self.subgraph_nodes_large = list(range(1, 900))\n        self.G = graph_type()",
+        "min_run_count": 2,
+        "name": "benchmarks_classes.GraphBenchmark.time_remove_nodes_from",
+        "number": 0,
+        "param_names": [
+            "graph_type"
+        ],
+        "params": [
+            [
+                "<class 'networkx.classes.graph.Graph'>",
+                "<class 'networkx.classes.digraph.DiGraph'>",
+                "<class 'networkx.classes.multigraph.MultiGraph'>",
+                "<class 'networkx.classes.multidigraph.MultiDiGraph'>"
+            ]
+        ],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "81ff6f0950e47d2dd8c3a79006a5027108bd3eb2a8c3c09b3580f2da06b6c37f",
+        "warmup_time": -1
+    },
+    "benchmarks_classes.GraphBenchmark.time_subgraph": {
+        "code": "class GraphBenchmark:\n    def time_subgraph(self, graph_type):\n        _ = self.G.subgraph(self.subgraph_nodes).copy()\n\n    def setup(self, graph_type):\n        self.nodes = list(range(1, 1000))\n        self.edges = list()\n        self.subgraph_nodes = list(range(1, 100))\n        self.subgraph_nodes_large = list(range(1, 900))\n        self.G = graph_type()",
+        "min_run_count": 2,
+        "name": "benchmarks_classes.GraphBenchmark.time_subgraph",
+        "number": 0,
+        "param_names": [
+            "graph_type"
+        ],
+        "params": [
+            [
+                "<class 'networkx.classes.graph.Graph'>",
+                "<class 'networkx.classes.digraph.DiGraph'>",
+                "<class 'networkx.classes.multigraph.MultiGraph'>",
+                "<class 'networkx.classes.multidigraph.MultiDiGraph'>"
+            ]
+        ],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "fb14879bd859f9758acabc253e55de964419a1063bb5391c1fe373d8acd187aa",
+        "warmup_time": -1
+    },
+    "benchmarks_classes.GraphBenchmark.time_subgraph_large": {
+        "code": "class GraphBenchmark:\n    def time_subgraph_large(self, graph_type):\n        _ = self.G.subgraph(self.subgraph_nodes_large).copy()\n\n    def setup(self, graph_type):\n        self.nodes = list(range(1, 1000))\n        self.edges = list()\n        self.subgraph_nodes = list(range(1, 100))\n        self.subgraph_nodes_large = list(range(1, 900))\n        self.G = graph_type()",
+        "min_run_count": 2,
+        "name": "benchmarks_classes.GraphBenchmark.time_subgraph_large",
+        "number": 0,
+        "param_names": [
+            "graph_type"
+        ],
+        "params": [
+            [
+                "<class 'networkx.classes.graph.Graph'>",
+                "<class 'networkx.classes.digraph.DiGraph'>",
+                "<class 'networkx.classes.multigraph.MultiGraph'>",
+                "<class 'networkx.classes.multidigraph.MultiDiGraph'>"
+            ]
+        ],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "071eb6adb84020e5009e528577a44794b4967d1472e06c5cb8ec4b5c50e4acfb",
+        "warmup_time": -1
+    },
+    "benchmarks_classes.GraphBenchmark.time_to_directed": {
+        "code": "class GraphBenchmark:\n    def time_to_directed(self, graph_type):\n        _ = self.G.to_directed()\n\n    def setup(self, graph_type):\n        self.nodes = list(range(1, 1000))\n        self.edges = list()\n        self.subgraph_nodes = list(range(1, 100))\n        self.subgraph_nodes_large = list(range(1, 900))\n        self.G = graph_type()",
+        "min_run_count": 2,
+        "name": "benchmarks_classes.GraphBenchmark.time_to_directed",
+        "number": 0,
+        "param_names": [
+            "graph_type"
+        ],
+        "params": [
+            [
+                "<class 'networkx.classes.graph.Graph'>",
+                "<class 'networkx.classes.digraph.DiGraph'>",
+                "<class 'networkx.classes.multigraph.MultiGraph'>",
+                "<class 'networkx.classes.multidigraph.MultiDiGraph'>"
+            ]
+        ],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "cfc5ac7c6a9f28268e5fb6cb96bd8a4db93bb1326fd6a02090252b9721a1361f",
+        "warmup_time": -1
+    },
+    "benchmarks_classes.GraphBenchmark.time_to_undirected": {
+        "code": "class GraphBenchmark:\n    def time_to_undirected(self, graph_type):\n        _ = self.G.to_undirected()\n\n    def setup(self, graph_type):\n        self.nodes = list(range(1, 1000))\n        self.edges = list()\n        self.subgraph_nodes = list(range(1, 100))\n        self.subgraph_nodes_large = list(range(1, 900))\n        self.G = graph_type()",
+        "min_run_count": 2,
+        "name": "benchmarks_classes.GraphBenchmark.time_to_undirected",
+        "number": 0,
+        "param_names": [
+            "graph_type"
+        ],
+        "params": [
+            [
+                "<class 'networkx.classes.graph.Graph'>",
+                "<class 'networkx.classes.digraph.DiGraph'>",
+                "<class 'networkx.classes.multigraph.MultiGraph'>",
+                "<class 'networkx.classes.multidigraph.MultiDiGraph'>"
+            ]
+        ],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "52a5e0bd09f5396c7892c0c026591e5ff1d51e60ef5d0890e275a48e9013d881",
+        "warmup_time": -1
+    },
+    "version": 2
+}
