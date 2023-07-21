@@ -10,3 +10,7 @@ networkx-2.8
 networkx-2.8.4
 networkx-2.8.5
 networkx-2.8.6
+networkx-2.8.7
+networkx-2.8.8
+networkx-3.0
+networkx-3.1
